@@ -1,5 +1,6 @@
 # gta6trucchi
 trucchi e guide per gta 6
+<link rel="stylesheet" href="style.css">
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -284,8 +285,3 @@ Tutti i trucchi, segreti, codici e guide di GTA 6 aggiornati.
 </body>
 </html>
 
-Per farlo sembrare davvero come il mockup che hai mostrato, il passo successivo è creare:
-
-style.css professionale (1000+ righe, animazioni, effetti neon GTA 6);
-layout responsive mobile;
-sezione news
