@@ -1,0 +1,291 @@
+# gta6trucchi
+trucchi e guide per gta 6
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTA6Trucchi - Tutti i Trucchi e Guide GTA 6</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#090b12;
+    color:white;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:#090b12;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:999;
+    border-bottom:1px solid #222;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ff3ea5;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding:120px 8%;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('hero.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:72px;
+    line-height:0.9;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:22px;
+}
+
+.launch{
+    margin-top:30px;
+    display:inline-block;
+    padding:20px 30px;
+    border:2px solid #ff3ea5;
+    border-radius:12px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:#ff3ea5;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#111522;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #222;
+}
+
+.card h3{
+    color:#ff3ea5;
+    margin-bottom:15px;
+}
+
+.news{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.news article{
+    background:#111522;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.news img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.news-content{
+    padding:20px;
+}
+
+footer{
+    background:#05070d;
+    padding:40px;
+    text-align:center;
+    border-top:1px solid #222;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">GTA6<span>TRUCCHI</span></div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#trucchi">Trucchi</a>
+<a href="#guide">Guide</a>
+<a href="#news">News</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>GTA 6<br>TRUCCHI</h1>
+
+<p>
+Tutti i trucchi, segreti, codici e guide di GTA 6 aggiornati.
+</p>
+
+<div class="launch">
+<h2>Data di lancio</h2>
+<h1>26 MAGGIO 2026</h1>
+</div>
+
+<br>
+
+<a href="#trucchi" class="btn">Vai ai Trucchi</a>
+
+</div>
+
+</section>
+
+<section id="trucchi">
+
+<h2 class="section-title">Trucchi GTA 6</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Soldi Infiniti</h3>
+<p>Guida aggiornata appena disponibile.</p>
+</div>
+
+<div class="card">
+<h3>Armi Speciali</h3>
+<p>Tutti i codici e segreti.</p>
+</div>
+
+<div class="card">
+<h3>Veicoli Rari</h3>
+<p>Dove trovare auto, moto e mezzi speciali.</p>
+</div>
+
+<div class="card">
+<h3>Easter Egg</h3>
+<p>Tutti i segreti nascosti di Vice City.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="guide">
+
+<h2 class="section-title">Guide Complete</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Missioni Principali</h3>
+<p>Walkthrough completo.</p>
+</div>
+
+<div class="card">
+<h3>Mappa GTA 6</h3>
+<p>Tutti i luoghi importanti.</p>
+</div>
+
+<div class="card">
+<h3>100% Completamento</h3>
+<p>Come completare il gioco al 100%.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="news">
+
+<h2 class="section-title">Ultime News</h2>
+
+<div class="news">
+
+<article>
+<img src="news1.jpg">
+<div class="news-content">
+<h3>Nuovo Trailer GTA 6</h3>
+<p>Analisi completa del trailer ufficiale.</p>
+</div>
+</article>
+
+<article>
+<img src="news2.jpg">
+<div class="news-content">
+<h3>Personaggi Principali</h3>
+<p>Tutto quello che sappiamo.</p>
+</div>
+</article>
+
+<article>
+<img src="news3.jpg">
+<div class="news-content">
+<h3>Mappa di Vice City</h3>
+<p>Le ultime informazioni confermate.</p>
+</div>
+</article>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 GTA6Trucchi.it</p>
+
+</footer>
+
+</body>
+</html>
+
+Per farlo sembrare davvero come il mockup che hai mostrato, il passo successivo è creare:
+
+style.css professionale (1000+ righe, animazioni, effetti neon GTA 6);
+layout responsive mobile;
+sezione news
